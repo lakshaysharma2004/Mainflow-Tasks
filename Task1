@@ -1,0 +1,43 @@
+# Create a list
+user_list = [1, 2, 3, 4, 5]
+print("Initial List:", user_list)
+
+# Adding an element to the list
+user_list.append(6)
+print("After adding element to List:", user_list)
+
+# Removing an element from the list
+user_list.remove(3)
+print("After removing element from List:", user_list)
+
+# Modifying an element in the list
+user_list[0] = 0
+print("After modifying an element in List:", user_list)
+
+# Create a dictionary
+user_dict = {'a': 1, 'b': 2, 'c': 3}
+print("\nInitial Dictionary:", user_dict)
+
+# Adding an element to the dictionary
+user_dict['d'] = 4
+print("After adding element to Dictionary:", user_dict)
+
+# Removing an element from the dictionary
+del user_dict['b']
+print("After removing element from Dictionary:", user_dict)
+
+# Modifying an element in the dictionary
+user_dict['a'] = 0
+print("After modifying an element in Dictionary:", user_dict)
+
+# Create a set
+user_set = {1, 2, 3, 4, 5}
+print("\nInitial Set:", user_set)
+
+# Adding an element to the set
+user_set.add(6)
+print("After adding element to Set:", user_set)
+
+# Removing an element from the set
+user_set.remove(3)
+print("After removing element from Set:", user_set)
